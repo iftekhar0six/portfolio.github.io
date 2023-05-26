@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iftekhar | Portfolio</title>
+    <!-- J QUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--/J QUERY CDN -->
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- /BOOTSTRAP CDN -->
+    <!-- ICON CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <!--/ICON CDN -->
+    <!-- LINK CSS FILE -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--/LINK CSS FILE -->
+    <!-- ISOTOPES PLUGIN -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!--/ISOTOPES PLUGIN -->
+    <!-- AOS ANIMATION CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--/AOS ANIMATION CSS -->
+</head>
+
+<body>
+    <!-- ======================================== THEME CHANGER======================================== -->
+    <div class="theme_btn dropdown-toggle" id="menu1" data-toggle="dropdown" data-aos="zoom-in"><span
+            class="material-icons-outlined">settings</span></div>
+    <div class="theme_box dropdown-menu" role="menu">
+        <div class="theme_mode">
+            <div class="light_mode">
+                <img src="images/light_mode.png" alt="" style="border: 2px solid #000">
+                <label for="">Light Mode</label>
+            </div>
+            <div class="dark_mode">
+                <img src="images/dark_mode.png" alt="">
+                <label for="">Dark Mode</label>
+            </div>
+        </div>
+        <div class="theme_colors">
+            <label for="">Colors: </label>
+            <div class="row mx-auto theme_shades">
+
+                <span data-color-code="#A97AFD" style="background:#A97AFD;border: 2px solid var(--black_color);"></span>
+                <span data-color-code="#87c0de" style="background:#87c0de;"></span>
+                <span data-color-code="#4070F4" style="background:#4070F4;"></span>
+                <span data-color-code="#048654" style="background:#048654;"></span>
+                <span data-color-code="#086391" style="background:#086391;"></span>
+                <span data-color-code="#f88b6d" style="background:#f88b6d;"></span>
+                <span data-color-code="#e51b4d" style="background:#e51b4d;"></span>
+                <span data-color-code="#5ed5ed" style="background:#5ed5ed;"></span>
+                <span data-color-code="#F7AD19" style="background:#F7AD19;"></span>
+                <span data-color-code="#24cbc7" style="background:#24cbc7;"></span>
+                <span data-color-code="#FE87AC" style="background:#FE87AC;"></span>
+                <span data-color-code="#00ECC2" style="background:#00ECC2;"></span>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================/THEME CHANGER======================================== -->
+
+    <!-- ======================================== NAVBAR PORTION======================================== -->
+    <div class="container-fluid Navbar_Portion" id="Navbar_Portion">
+        <div class="col-xl-10 mx-auto">
+            <div class="col-12 d-flex align-items-center justify-content-between">
+                <div class="nav_logo">
+                    <span>
+                        <span></span><span class="material-icons-outlined">person</span><span></span>
+                        <span>&nbsp; Portfolio</span>
+                    </span>
+                </div>
+                <div class="nav_links d-xl-flex d-lg-flex d-none">
+                    <li><a href="#Banner_Portion">Home</a></li>
+                    <li><a href="#About_Me_Portion">About</a></li>
+                    <li><a href="#Qualification_Portion">Qualifications</a></li>
+                    <li><a href="#Skills_Portion">Skills</a></li>
+                    <li><a href="#Portfolio_Portion">Projects</a></li>
+                    <li><a href="#Contect_Me_Portion">Contact</a></li>
+                </div>
+                <div class="small_navbar">
+                    <div class="nav_btn dropdown-toggle" id="menu1" data-toggle="dropdown"><span
+                            class="material-icons-outlined">grid_view</span></div>
+                    <div class="small_nav dropdown-menu" role="menu" aria-labelledby="menu1"
+                        style="top: 10px!important;">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center justify-content-start flex-column">
+                                <li><a href="#Banner_Portion"><span
+                                            class="material-icons-outlined">home</span><span>Home</span></a></li>
+                                <li><a href="#Qualification_Portion"><span
+                                            class="material-icons-outlined">school</span><span>Qualification</span></a>
+                                </li>
+                                <li><a href="#Portfolio_Portion"><span
+                                            class="material-icons-outlined">business_center</span><span>Projects</span></a>
+                                </li>
+
+
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start flex-column">
+                                <li><a href="#About_Me_Portion"><span
+                                            class="material-icons-outlined">account_circle</span><span>About</span></a>
+                                </li>
+                                <li><a href="#Skills_Portion"><span
+                                            class="material-icons-outlined">edit_note</span><span>Skills</span></a></li>
+                                <li><a href="#Contect_Me_Portion"><span
+                                            class="material-icons-outlined">perm_phone_msg</span><span>Contact</span></a>
+                                </li>
+
+
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start flex-column">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================/NAVBAR PORTION======================================= -->
+
+    <!-- ========================================BANNER PORTION======================================== -->
+    <div class="container-fluid Banner_Portion" id="Banner_Portion">
+        <div class="col-xl-10 mx-auto">
+            <div
+                class="col-12 d-flex align-items-center justify-content-between flex-xl-row flex-lg-row flex-column-reverse">
+                <div class="col-xl-6 col-lg-7 col-md-11 col-12" data-aos="zoom-in">
+                    <div class="personal_info">
+                        <span>Hello I'm</span>
+                        <h1>Iftekhar J. Ansari</h1>
+                        <h4>Web Developer</h4>
+                        <p>I am a dedicated IT student with a strong focus on web development, specifically in backend.
+                        </p>
+                    </div>
+                    <div class="contect_info">
+                        <li><span class="material-icons">email</span><span>&nbsp; <a
+                                    href="mailto:ijali0106@gmail.com">ijali0106@gmail.com</a></span>
+                        </li>
+                        <li><span class="material-icons">phone_in_talk</span><span>&nbsp;+91 94088 96800</span></li>
+                        <li><span class="material-icons">location_on</span><span>&nbsp;<a
+                                    href="https://goo.gl/maps/Vffq2w5QcGLoiwsF9">Gujarat,
+                                    India</a></span>
+                        </li>
+                        <!-- <button><span>Hire me!&nbsp;</span><span
+                                class="material-icons-outlined">handshake</span></button> -->
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 col-md-8 col-sm-9 col-12" data-aos="zoom-in">
+                    <div class="img_container banner_img">
+                        <img src="images/Banner_Model_1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================/BANNER PORTION======================================== -->
+
+    <!-- ======================================== ABOUT US PORTION====================================== -->
+    <div class="container-fluid About_Me_Portion" id="About_Me_Portion">
+        <div class="col-xl-10 mx-auto">
+            <div
+                class="col-12 d-flex align-items-center justify-content-around flex-xl-row flex-lg-row flex-md-row flex-column">
+                <div class="col-xl-5 col-lg-6 col-md-5 col-sm-10 col-12 about_banner" data-aos="zoom-out">
+                    <div class="img_container">
+                        <img src="images/About_Me.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-7 col-sm-10 col-12 about_detail" data-aos="zoom-out">
+                    <div class="Portion_Heading">
+                        <h2>About Me</h2>
+                    </div>
+                    <p>I am a dedicated IT student with a strong focus on web development, specializing in backend
+                        development.
+                        My goal is to secure a position in an organization that allows me to expand my skills and
+                        knowledge along with contributing to the growth of the organization. My technical skill
+                        include's: </p>
+                    <div class="tags row mx-auto">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BOOTSTRAP</li>
+                        <li>JAVASCRIPT</li>
+                        <li>NODEJS</li>
+                        <li>MONGODB</li>
+                        <li>ANGULAR</li>
+                        <li>EJS</li>
+                        <li>HBS</li>
+                        <li>GIT</li>
+                    </div>
+                    <button><span><a target="_blank" href="./Iftekhar Resume.pdf">Download Resume</a>&nbsp;</span><span
+                            class="jam jam-upload"></span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================/ABOUT US PORTION====================================== -->
+
+    <!-- ======================================== QUALIFICATION PORTION================================= -->
+    <div class="container-fluid Qualification_Portion" id="Qualification_Portion">
+        <div class="col-xl-10 mx-auto">
+            <div class="Portion_Heading">
+                <h2>My Qualification</h2>
+                <span>My Experience</span>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-12 qualification_tabs mx-auto">
+                <div class="education_tab active"><span
+                        class="material-icons-outlined">school</span><span>&nbsp;Education</span></div>
+                <div class="work_tab"><span
+                        class="material-icons-outlined">business_center</span><span>&nbsp;Experience</span></div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-12 mx-auto timeline education" data-aos="zoom-out">
+                <div class="timeline_item">
+                    <h4>B.E</h4>
+                    <p><a href="http://www.ssgec.ac.in/">Shantilal Shah Engineering College, Bhavnagar</a></p>
+                    <span><span class="material-icons-outlined">calendar_month</span><span>&nbsp;2020 -
+                            2024</span></span>
+                </div>
+                <div class="timeline_item">
+                    <h4>H.S.C</h4>
+                    <p><a href="https://www.drnik.net/">Dr. Nakadar Institute of Knowledge, Mehsana</a></p>
+                    <span><span class="material-icons-outlined">calendar_month</span><span>&nbsp;2019 -
+                            2020</span></span>
+                </div>
+                <div class="timeline_item">
+                    <h4>S.S.C</h4>
+                    <p><a href="http://www.bessidhpur.in/">Burhani English School, Patan</a></p>
+                    <span><span class="material-icons-outlined">calendar_month</span><span>&nbsp;2017 -
+                            2018</span></span>
+                </div>
+                <!-- <div class="timeline_item">
+					<h4>UI/UX Design</h4>
+					<p>Cambridge University</p>
+					<span><span class="material-icons-outlined">calendar_month</span><span>&nbsp;2018 - 2020</span></span>
+				</div> -->
+                <span class="timeline_icon material-icons-outlined" style="--i:0.1">devices</span>
+                <span class="timeline_icon material-icons-outlined" style="--i:1.03">terminal</span>
+                <!-- <span class="timeline_icon material-icons-outlined" style="--i:1.95">settings_ethernet</span>		 -->
+                <span class="timeline_icon material-icons-outlined" style="--i:1.95">integration_instructions</span>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-12 mx-auto timeline work" data-aos="zoom-out">
+                <div class="timeline_item">
+                    <h4>Web Forum</h4>
+                    <p>This is a university based team project. </p>
+                    <!-- <span><span class="material-icons-outlined">calendar_month</span><span>&nbsp;2018 - 2020</span></span> -->
+                </div>
+                <div class="timeline_item">
+                    <h4>Future Update</h4>
+                    <p>N/A</p>
+                    <!-- <span><span class="material-icons-outlined">calendar_month</span><span>&nbsp;2018 - 2020</span></span> -->
+                </div>
+                <div class="timeline_item">
+                    <h4>Future Update</h4>
+                    <p>N/A</p>
+                    <!-- <span><span class="material-icons-outlined">calendar_month</span><span>&nbsp;2018 - 2020</span></span> -->
+                </div>
+                <!-- <div class="timeline_item">
+					<h4>UI/UX Design</h4>
+					<p>Design UI/UX</p>
+					<span><span class="material-icons-outlined">calendar_month</span><span>&nbsp;2018 - 2020</span></span>
+				</div> -->
+                <span class="timeline_icon material-icons-outlined" style="--i:0.1">devices</span>
+                <span class="timeline_icon material-icons-outlined" style="--i:1.03">terminal</span>
+                <!-- <span class="timeline_icon material-icons-outlined" style="--i:1.95">settings_ethernet</span>		 -->
+                <span class="timeline_icon material-icons-outlined" style="--i:1.95">integration_instructions</span>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================/QUALIFICATION PORTION================================= -->
+
+    <!-- ======================================== SKILLS PORTION======================================== -->
+    <div class="container-fluid Skills_Portion" id="Skills_Portion">
+        <div class="col-xl-10 mx-auto">
+            <div class="Portion_Heading">
+                <h2>My SKills</h2>
+                <span>Skills</span>
+            </div>
+            <div class="col-12 Skills row mx-auto">
+                <div class="col-xl-6 col-lg-6 col-md-10 col-sm-11 col-12" data-aos="zoom-in">
+                    <div class="progressbar_container mx-auto">
+                        <h3>Technical Skills</h3>
+                        <div class="mb-4">
+                            <div class="tech_skills skill_set show_skills">
+                                <span class="icon material-icons-outlined">integration_instructions</span>
+                                <div>
+                                    <h5>Frontend Developement</h5>
+                                </div>
+                                <span class="expand_more material-icons-outlined">chevron_right</span>
+                            </div>
+                            <div class="skills">
+                                <div class="label">
+                                    <span>HTML</span>
+                                    <span>67%</span>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="progress_indi"></div>
+                                </div>
+                                <div class="label">
+                                    <span>CSS</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="progress_indi" style="width: 85%;"></div>
+                                </div>
+                                <div class="label">
+                                    <span>ANGULAR</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="progress_indi" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="tech_skills skill_set">
+                                <span class="icon material-icons-outlined">settings_ethernet</span>
+                                <div>
+                                    <h5>Backend Developement</h5>
+                                </div>
+                                <span class="expand_more material-icons-outlined">chevron_right</span>
+                            </div>
+                            <div class="skills">
+                                <div class="label">
+                                    <span>NODEJS</span>
+                                    <span>76%</span>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="progress_indi" style="width: 76%;"></div>
+                                </div>
+                                <div class="label">
+                                    <span>MONGODB</span>
+                                    <span>72%</span>
+                                </div>
+                                <div class="progress_bar">
+                                    <div class="progress_indi" style="width: 72%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <<div class="tech_skills skill_set">
+                                <span class="icon material-icons-outlined">devices</span>
+                                <div>
+                                    <h5>UI/UX Design</h5>
+                                </div>
+                                <span class="expand_more material-icons-outlined">chevron_right</span>
+                        </div>
+                        <div class="skills">
+                            <div class="label">
+                                <span>Information Architecture</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="progress_indi" style="width: 90%;"></div>
+                            </div>
+                            <div class="label">
+                                <span>Adobe Photoshop</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="progress_indi" style="width: 78%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-10 col-sm-11 col-12" data-aos="zoom-in">
+                <h3>Professional Skills</h3>
+                <div class="col-xl-9 progress_container row mx-auto">
+                    <div class="col-6">
+                        <div class="circular_progress"><span>90%</span></div>
+                        <span>Communication</span>
+                    </div>
+                    <div class="col-6">
+                        <div class="circular_progress"
+                            style="background: conic-gradient(var(--theme_color) 0%,var(--theme_color) 82%,#F2F2F2 82%, #F2F2F2 100%);">
+                            <span>82%</span>
+                        </div>
+                        <span>Adaptivity</span>
+                    </div>
+                    <div class="col-6">
+                        <div class="circular_progress"
+                            style="background: conic-gradient(var(--theme_color) 0%,var(--theme_color) 65%,#F2F2F2 65%, #F2F2F2 100%);">
+                            <span>65%</span>
+                        </div>
+                        <span>Team Work</span>
+                    </div>
+                    <div class="col-6">
+                        <div class="circular_progress"
+                            style="background: conic-gradient(var(--theme_color) 0%,var(--theme_color) 75%,#F2F2F2 75%, #F2F2F2 100%);">
+                            <span>75%</span>
+                        </div>
+                        <span>Creativity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ========================================/SKILLS PORTION======================================== -->
+
+    <!-- ======================================== PROJECT PORTION================================= -->
+    <div class="container-fluid Portfolio_Portion" id="Portfolio_Portion">
+        <div class="col-xl-10 mx-auto">
+            <div class="Portion_Heading">
+                <h2>My Recent Projects</h2>
+                <span>My Work</span>
+            </div>
+            <div class="col-12">
+                <div class="work_tabs">
+                    <li data-filter="*" class="active">All</li>
+                    <li data-filter=".web">Webs</li>
+                    <li data-filter=".app">Mobile Apps</li>
+                    <li data-filter=".ui_ux">UI/UX</li>
+                </div>
+                <div class="col-12 px-0 row mx-auto work_items" data-aos="zoom-out">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 item web">
+                        <div class="detail">
+                            <p>Web Forum</p>
+                            <span>Website Project</span>
+                        </div>
+                        <img src="images/Portfolio_6.jpg" alt="">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 item app">
+                        <div class="detail">
+                            <p>Calculator</p>
+                            <span>Mobile App</span>
+                        </div>
+                        <img src="images/Portfolio_2.jpg" alt="">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 item app">
+                        <div class="detail">
+                            <p>Library Due Calculator</p>
+                            <span>Mobile App</span>
+                        </div>
+                        <img src="images/Portfolio_7.jpg" alt="">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 item app">
+                        <div class="detail">
+                            <p>Currency Converter</p>
+                            <span>Mobile App</span>
+                        </div>
+                        <img src="images/Portfolio_3.jpg" alt="">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 item app">
+                        <div class="detail">
+                            <p>Project Name</p>
+                            <span>Web Design</span>
+                        </div>
+                        <img src="images/Portfolio_4.jpg" alt="">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 item web">
+                        <div class="detail">
+                            <p>Project Name</p>
+                            <span>Web Design</span>
+                        </div>
+                        <img src="images/Portfolio_5.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================/PROJECT PORTION================================= -->
+
+    <!-- ======================================== CONTECT ME PORTION================================= -->
+    <div class="container-fluid Contect_Me_Portion" id="Contect_Me_Portion">
+        <div class="col-xl-10 mx-auto">
+            <div class="Portion_Heading">
+                <h2>Contact Me</h2>
+                <span>Let's Talk</span>
+            </div>
+            <div class="col-12 row mx-auto">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-11 col-12" data-aos="zoom-in">
+                    <div class="contect_card">
+                        <div class="icon">
+                            <span class="material-icons-outlined">mail</span>
+                        </div>
+                        <div class="contect_detail">
+                            <h5>Email Id</h5>
+                            <span><a href="mailto:ijali0106@gmail.com">ijali0106@gmail.com</a></span>
+                        </div>
+                    </div>
+                    <div class="contect_card">
+                        <div class="icon">
+                            <span class="material-icons-outlined">phone</span>
+                        </div>
+                        <div class="contect_detail">
+                            <h5>Phone No</h5>
+                            <span>+91 94088 96800</span>
+                        </div>
+                    </div>
+                    <div class="contect_card">
+                        <div class="icon">
+                            <span class="material-icons-outlined">location_on</span>
+                        </div>
+                        <div class="contect_detail">
+                            <h5>Address</h5>
+                            <span><a href="https://goo.gl/maps/Vffq2w5QcGLoiwsF9">
+                                    Gujarat, India</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-6 col-sm-11 col-12" data-aos="zoom-in">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Email Id">
+                    <textarea placeholder="Message"></textarea>
+                    <button><span>Send&nbsp;</span><span class="material-icons-outlined">send</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================/CONTECT ME PORTION================================= -->
+
+    <!-- ======================================== FOOTER PORTION================================= -->
+    <div class="container-fluid Footer_Portion">
+        <div class="col-xl-10 mx-auto">
+            <div
+                class="col-12 d-flex align-items-center justify-content-between flex-xl-row flex-lg-row flex-md-row flex-sm-row flex-column">
+                <p class="mb-0">&COPY; 2023 Iftekhar J. Ansari</p>
+                <div class="social_media">
+                    <li><a href="https://github.com/iftekhar0six" class="jam jam-github"></a></li>
+                    <li><a href="https://join.skype.com/invite/sIvlsF9Wt49F" class="jam jam-skype"></a></li>
+                    <li><a href="https://www.linkedin.com/in/iftekharansari" class="jam jam-linkedin"></a></li>
+                    <li><a href="https://twitter.com/Iftekhar0six?t=e4kEp2aWl7_7jSZ31D4APA&s=09"
+                            class="jam jam-twitter"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100025211761545&mibextid=ZbWKwL"
+                            class="jam jam-facebook"></a></li>
+                    <li><a href="https://instagram.com/iftekhar0six?igshid=MzNlNGNkZWQ4Mg=="
+                            class="jam jam-instagram"></a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================/FOOTER PORTION================================= -->
+
+    <!-- ======================================== SCROLL TO TOP================================= -->
+    <button class="scroll_to_top"><span class="jam jam-arrow-up"></span></button>
+    <!-- ========================================/SCROLL TO TOP================================= -->
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- AOS ANIMATION -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 700,
+        });
+    </script>
+
+</body>
+
+</html>
