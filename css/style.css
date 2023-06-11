@@ -143,8 +143,8 @@ button span{
 	color: var(--white_color);
 	font-weight: 500;
     opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: .8s;
+    animation: slideBottom .7s ease forwards;
+    animation-delay: .6s;
 }
 button span a{
 	color: var(--white_color);
@@ -201,8 +201,8 @@ textarea{
 	justify-content: center;
 	z-index: 500;
 	opacity: 0;
-    animation: slideRight 1.6s ease forwards;
-    animation-delay: .8s;
+    animation: slideRight .7s ease forwards;
+    animation-delay: .4s;
 }
 .theme_box{
 	position: fixed;
@@ -248,7 +248,7 @@ textarea{
 
 	opacity: 0;
     animation: slideRight .2s ease forwards;
-    animation-delay: .8s;
+    animation-delay: .4s;
 }
 .theme_box .theme_colors span{
 	height: 40px;
@@ -259,8 +259,8 @@ textarea{
 	margin: 5px;
 
 	opacity: 0;
-    animation: slideTop 1.5s ease forwards;
-    animation-delay: .8s;
+    animation: slideTop .7s ease forwards;
+    animation-delay: .4s;
 }
 .theme_box .theme_mode{
 	display: flex;
@@ -284,7 +284,7 @@ textarea{
 
 	opacity: 0;
     animation: slideRight .2s ease forwards;
-    animation-delay: .8s;
+    animation-delay: .4s;
 }
 .theme_box .theme_mode .light_mode img,
 .theme_box .theme_mode .dark_mode img{
@@ -293,8 +293,8 @@ textarea{
 	height: auto;
 
 	opacity: 0;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: .8s;
+    animation: slideBottom .7s ease forwards;
+    animation-delay: .4s;
 }
 /*/THEME CHANGER*/
 
@@ -349,7 +349,7 @@ textarea{
 	transition: all 0.4s linear;
     transition: .3s;
     opacity: 0;
-    animation: slideTop .5s ease forwards;
+    animation: slideTop .3s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
 .small_navbar .nav_btn{
@@ -363,8 +363,8 @@ textarea{
 	cursor: pointer;
 	color: var(--light_silver);
 	opacity: 0;
-    animation: slideLeft 1.6s ease forwards;
-    animation-delay: .8s;
+    animation: slideLeft .8s ease forwards;
+    animation-delay: .6s;
 }
 .Navbar_Portion .small_navbar .small_nav{
 	width: 270px;
@@ -386,8 +386,8 @@ textarea{
 	text-decoration-color: transparent;
 
 	opacity: 0;
-    animation: slideTop 1.3s ease forwards;
-    animation-delay: .8s;
+    animation: slideTop .7s ease forwards;
+    animation-delay: .4s;
 }
 .Navbar_Portion .small_navbar .small_nav li a span{
 	font-weight: 500;
